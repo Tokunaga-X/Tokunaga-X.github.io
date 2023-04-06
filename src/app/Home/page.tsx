@@ -9,8 +9,8 @@ export default function Home() {
                 <Image src={HelloImg} alt="wave hand"></Image>
             </h1>
             <p>
-                Hi, I'm Xu Yuchao. A passionate Front-end React Developer based
-                in Hangzhou, China.
+                Hi, I&apos;m Xu Yuchao. A passionate Front-end React Developer
+                based in Hangzhou, China.
             </p>
         </div>
     )
