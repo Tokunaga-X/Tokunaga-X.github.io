@@ -1,3 +1,3 @@
 export default function About() {
-    return <section>Here is About</section>
+    return <section className="">Here is About</section>
 }
