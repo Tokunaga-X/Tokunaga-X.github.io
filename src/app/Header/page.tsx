@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-        <nav className="fixed w-full flex justify-between align-center py-6 pl-12 pr-10 ">
-            <h3 className="font-bold text-xl">Tokunaga-X</h3>
+        <nav className="fixed w-full flex justify-between align-center py-6 pl-12 pr-10 bg-white shadow-md">
+            <h3 className="font-bold text-xl">Stefan.dev</h3>
             <ul className="flex gap-8 font-bold">
                 <li>Home</li>
                 <li>About</li>
