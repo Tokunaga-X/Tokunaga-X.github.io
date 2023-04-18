@@ -3,7 +3,7 @@ export default function Contact() {
         <section>
             <p className="section-title text-left">CONTACT</p>
             <h3 className="section-header text-left">
-                Don't be shy! Hit me up! 👇
+                Don&apos;t be shy! Hit me up! 👇
             </h3>
             <div className="flex flex-wrap gap-32 mt-24">
                 <div className="flex gap-6 items-center">
