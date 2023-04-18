@@ -1,6 +1,6 @@
 import HelloImg from "@/../public/hello.png"
 import Image from "next/image"
-import MyselfImg from "../../../public/Myself.png"
+import MyselfImg from "../../../public/myself.png"
 
 export default function Home() {
     return (
