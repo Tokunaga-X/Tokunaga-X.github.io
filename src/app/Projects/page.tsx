@@ -1,3 +1,10 @@
 export default function Projects() {
-    return <section>Here is Projects</section>
+    return (
+        <section className="bg-grey-bg">
+            <p className="section-title">PORTFOLIO</p>
+            <h3 className="section-header">
+                Each project is a unique piece of development 🧩
+            </h3>
+        </section>
+    )
 }

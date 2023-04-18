@@ -12,7 +12,7 @@ export default function Home() {
                         <Image
                             src={HelloImg}
                             alt="wave hand"
-                            className="w-16 inline-block"
+                            className="w-16 inline-block object-cover"
                         ></Image>
                     </h1>
                     <p className="font-special text-[1.8rem] text-[#767676] font-medium">
@@ -25,17 +25,17 @@ export default function Home() {
                     alt="myself"
                     className="w-[35rem] animate-morph border-[3px] border-solid border-black"
                 ></Image>
-                <div className="absolute bottom-0 left-0 flex items-center">
-                    <p className="font-special text-lg border-r-2 border-solid border-black pr-8 mr-24">
+                <div className="absolute bottom-0 left-[4rem] flex items-center">
+                    <p className="font-special text-[#2d2e32] text-[1.7rem] font-[700] border-r-2 border-solid border-black pr-8 mr-28">
                         Tech Stack
                     </p>
                     <ul className="flex gap-10 list-none flex-wrap">
-                        <li className="radius-1/2 bg-white w-14 h-14 rounded-full shadow-[0_0_10px_rgba(0,0,0,0.09)]"></li>
-                        <li className="radius-1/2 bg-white w-14 h-14 rounded-full shadow-[0_0_10px_rgba(0,0,0,0.09)]"></li>
-                        <li className="radius-1/2 bg-white w-14 h-14 rounded-full shadow-[0_0_10px_rgba(0,0,0,0.09)]"></li>
-                        <li className="radius-1/2 bg-white w-14 h-14 rounded-full shadow-[0_0_10px_rgba(0,0,0,0.09)]"></li>
-                        <li className="radius-1/2 bg-white w-14 h-14 rounded-full shadow-[0_0_10px_rgba(0,0,0,0.09)]"></li>
-                        <li className="radius-1/2 bg-white w-14 h-14 rounded-full shadow-[0_0_10px_rgba(0,0,0,0.09)]"></li>
+                        <li className="stack-li"></li>
+                        <li className="stack-li"></li>
+                        <li className="stack-li"></li>
+                        <li className="stack-li"></li>
+                        <li className="stack-li"></li>
+                        <li className="stack-li"></li>
                     </ul>
                 </div>
             </div>
