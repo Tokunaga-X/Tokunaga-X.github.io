@@ -9,6 +9,7 @@ module.exports = {
         extend: {
             colors: {
                 "grey-bg": "#f9f9f9",
+                "font-blue": "#147efb",
             },
             keyframes: {
                 morph: {

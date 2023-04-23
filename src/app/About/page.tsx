@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <section>
+        <section id="about">
             <div className="flex flex-col items-center">
                 <Image
                     src={AboutImg}
@@ -17,16 +17,18 @@ export default function About() {
                         📍
                     </h3>
                     <p className="font-special text-[#767676] text-[1.7rem] font-[500] mb-8 text-center">
-                        As a Junior Front-End Developer, I possess an impressive
-                        arsenal of skills in HTML, CSS, JavaScript, React,
-                        Tailwind, and SCSS. I excel in designing and maintaining
-                        responsive websites that offer a smooth user experience.
-                        My expertise lies in crafting dynamic, engaging
-                        interfaces through writing clean and optimized code and
-                        utilizing cutting-edge development tools and techniques.
-                        I am also a team player who thrives in collaborating
-                        with cross-functional teams to produce outstanding web
-                        applications.
+                        As a skilled web developer, I specialize in crafting
+                        dynamic and engaging interfaces using clean, optimized
+                        code and the latest development tools and techniques. I
+                        am a team player at heart and thrive on collaborating
+                        with cross-functional teams to deliver outstanding web
+                        applications. Additionally, I have extensive experience
+                        in testing and deploying web projects, ensuring that
+                        they are fully functional and meet client
+                        specifications. I strongly believe that my greatest
+                        strength lies in my professional skills and experience,
+                        and I am fully committed to making a significant impact
+                        in my work.
                     </p>
                 </div>
             </div>
