@@ -27,8 +27,10 @@ export default function Home() {
                     </p>
                     <div className="flex gap-[1.3rem] my-10">
                         <a
-                            href=""
                             className="hover:scale-110 hover:text-font-blue transition-all duration-500"
+                            href="https://www.linkedin.com/in/yuchao-xu24253/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <FontAwesomeIcon
                                 icon={faLinkedin}
@@ -36,8 +38,10 @@ export default function Home() {
                             />
                         </a>
                         <a
-                            href=""
                             className="hover:scale-110 hover:text-font-blue transition-all duration-500"
+                            href="https://github.com/Tokunaga-X"
+                            target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <FontAwesomeIcon
                                 icon={faGithub}

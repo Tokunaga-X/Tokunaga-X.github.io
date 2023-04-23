@@ -11,8 +11,10 @@ export default function Footer() {
                 </p>
                 <div className="flex gap-8">
                     <a
-                        href=""
                         className="hover:scale-125 transition-transform duration-500"
+                        href="https://www.linkedin.com/in/yuchao-xu24253/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <FontAwesomeIcon
                             icon={faLinkedin}
@@ -21,8 +23,10 @@ export default function Footer() {
                         />
                     </a>
                     <a
-                        href=""
                         className="hover:scale-125 transition-transform duration-500"
+                        href="https://github.com/Tokunaga-X"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <FontAwesomeIcon
                             icon={faGithub}
