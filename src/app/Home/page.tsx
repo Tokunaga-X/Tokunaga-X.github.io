@@ -1,9 +1,15 @@
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
+import Css3Icon from "../../../public/css-3.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import HTML5Icon from "../../../public/html-5.png"
 import HelloImg from "@/../public/hello.png"
 import Image from "next/image"
+import JavascriptIcon from "../../../public/js.png"
 import MyselfImg from "../../../public/myself.png"
+import NodeJsIcon from "../../../public/node-js.png"
+import ReactIcon from "../../../public/react.png"
+import TypescriptIcon from "../../../public/typescript.png"
 
 export default function Home() {
     return (
@@ -59,13 +65,49 @@ export default function Home() {
                     <p className="font-special text-[#2d2e32] text-[1.7rem] font-[700] border-r-2 border-solid border-black pr-8 mr-28">
                         Tech Stack
                     </p>
-                    <ul className="flex gap-10 list-none flex-wrap">
-                        <li className="stack-li"></li>
-                        <li className="stack-li"></li>
-                        <li className="stack-li"></li>
-                        <li className="stack-li"></li>
-                        <li className="stack-li"></li>
-                        <li className="stack-li"></li>
+                    <ul className="flex gap-12 list-none flex-wrap">
+                        <li className="stack-li">
+                            <Image
+                                src={TypescriptIcon}
+                                alt="typscript"
+                                className="w-[3.4rem]"
+                            ></Image>
+                        </li>
+                        <li className="stack-li">
+                            <Image
+                                src={JavascriptIcon}
+                                alt="typscript"
+                                className="w-[3.4rem]"
+                            ></Image>
+                        </li>
+                        <li className="stack-li">
+                            <Image
+                                src={NodeJsIcon}
+                                alt="typscript"
+                                className="w-[3.4rem]"
+                            ></Image>
+                        </li>
+                        <li className="stack-li">
+                            <Image
+                                src={HTML5Icon}
+                                alt="typscript"
+                                className="w-[3.4rem]"
+                            ></Image>
+                        </li>
+                        <li className="stack-li">
+                            <Image
+                                src={Css3Icon}
+                                alt="typscript"
+                                className="w-[3.4rem]"
+                            ></Image>
+                        </li>
+                        <li className="stack-li">
+                            <Image
+                                src={ReactIcon}
+                                alt="typscript"
+                                className="w-[3.4rem]"
+                            ></Image>
+                        </li>
                     </ul>
                 </div>
             </div>

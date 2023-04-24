@@ -53,7 +53,7 @@ a {
         @apply font-semibold text-[1.7rem] text-[#2d2e32] hover:cursor-pointer hover:text-font-blue transition-colors;
     }
     .stack-li {
-        @apply bg-white w-[6.5rem] h-[6.5rem] rounded-full shadow-[0_0_10px_rgba(0,0,0,0.09)];
+        @apply bg-white w-[6.5rem] h-[6.5rem] rounded-full shadow-[0_0_10px_rgba(0,0,0,0.09)] flex justify-center items-center;
     }
     .section-title {
         @apply text-font-blue text-[1.7rem] font-[700] mb-4 text-center;
