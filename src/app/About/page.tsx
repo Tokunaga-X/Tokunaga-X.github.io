@@ -4,19 +4,19 @@ import Image from "next/image"
 export default function About() {
     return (
         <section id="about">
-            <div className="flex flex-col items-center">
+            <div className="max-w-[107rem] mx-auto flex flex-col lg:flex-row items-center lg:justify-center lg:gap-[4vw]">
                 <Image
                     src={AboutImg}
                     alt="About me"
                     className="w-[41rem] h-[35rem]  mb-14 rounded-[1.7rem]"
                 ></Image>
-                <div className="max-w-[54rem]">
+                <div className="max-w-[54rem] pr-6">
                     <p className="section-title">ABOUT ME</p>
                     <h3 className="section-header">
-                        A dedicated Front-end Developer based in Hangzhou, China
-                        📍
+                        A dedicated Full-stack Developer based in Hangzhou,
+                        China 📍
                     </h3>
-                    <p className="font-special text-[#767676] text-[1.7rem] font-[500] mb-8 text-center">
+                    <p className="font-special text-[#767676] text-[1.7rem] font-[500] mb-8">
                         As a skilled web developer, I specialize in crafting
                         dynamic and engaging interfaces using clean, optimized
                         code and the latest development tools and techniques. I
