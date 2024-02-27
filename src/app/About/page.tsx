@@ -8,7 +8,7 @@ export default function About() {
                 <Image
                     src={AboutImg}
                     alt="About me"
-                    className="w-[41rem] h-[35rem]  mb-14 rounded-[1.7rem]"
+                    className="w-[41rem] sm:h-[35rem] h-auto mb-14 rounded-[1.7rem]"
                 ></Image>
                 <div className="max-w-[54rem] pr-6">
                     <p className="section-title">ABOUT ME</p>

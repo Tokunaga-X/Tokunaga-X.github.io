@@ -50,17 +50,17 @@ export default function Projects() {
     ) => {
         return (
             <>
-                <div className="w-[53rem] rounded-[1.7rem] shadow-[0_0_10px_rgba(0,0,0,.2)] overflow-hidden flex items-center">
+                <div className="w-[53rem] rounded-[1.7rem] shadow-[0_0_15px_rgba(0,0,0,.3)] lg:shadow-[0_0_25px_rgba(0,0,0,.6)] overflow-hidden flex items-center justify-center">
                     <a
                         href={codeLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-full"
+                        className="sm:w-full w-2/3"
                     >
                         <Image
                             src={coverImg}
                             alt="moving-picture"
-                            className="w-full translate-y-0 transition-transform duration-[10s] hover:translate-y-[-52%] border-y-4"
+                            className="lg:w-full translate-y-0 transition-transform duration-[10s] hover:translate-y-[-52%] border-y-4"
                         ></Image>
                     </a>
                 </div>

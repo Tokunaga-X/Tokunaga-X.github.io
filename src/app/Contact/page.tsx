@@ -6,11 +6,15 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { useEffect } from "react"
 
 export default function Contact() {
     const iconOnClick = (targetId: string) => {
         document.getElementById(`${targetId}`)?.click()
     }
+    useEffect(() => {
+        // console.log(document.querySelector("html")?.classList)
+    }, [])
 
     return (
         <section className="py-44" id="contact">

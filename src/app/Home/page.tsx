@@ -20,7 +20,7 @@ export default function Home() {
             <div className="relative flex flex-col lg:flex-row justify-center items-center my-0 md:mt-10 xl:mt-40 mx-auto px-16 lg:h-[65rem] max-w-[107rem] py-[11rem] lg:py-0 gap-12 lg:gap-0">
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-[10rem]">
                     <div className="max-w-[50rem]">
-                        <h1 className="text-center lg:text-left text-[#2d2e32] font-bold text-[5.5rem] my-8 leading-tight">
+                        <h1 className="text-center lg:text-left text-[#2d2e32] font-bold text-6xl sm:text-[5.5rem] my-8 leading-tight">
                             Full-stack Web Developer
                             <Image
                                 src={HelloImg}
@@ -60,7 +60,7 @@ export default function Home() {
                     <Image
                         src={MyselfImg}
                         alt="myself"
-                        className="w-[35rem] h-[35rem] object-cover animate-morph border-[3px] border-solid border-black"
+                        className="sm:w-[35rem] sm:h-[35rem] w-[30rem] h-[30rem] object-cover animate-morph border-[3px] border-solid border-black"
                     ></Image>
                 </div>
                 <div className="static lg:absolute bottom-0 left-[4rem] flex flex-col lg:flex-row items-center">
