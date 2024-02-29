@@ -7,7 +7,7 @@ import Projects from "./Projects/page"
 
 export default function App() {
     return (
-        <main>
+        <main className="relative">
             <Header />
             <Home />
             <About />

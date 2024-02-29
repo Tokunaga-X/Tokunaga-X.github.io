@@ -25,7 +25,7 @@ export default function Home() {
                             <Image
                                 src={HelloImg}
                                 alt="wave hand"
-                                className="w-16 inline-block"
+                                className="w-16 sm:w-32 inline-block animate-wiggle"
                             ></Image>
                         </h1>
                         <p className="text-center lg:text-left font-special text-[1.8rem] text-[#767676] font-medium">
