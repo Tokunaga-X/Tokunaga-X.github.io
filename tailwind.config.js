@@ -28,10 +28,16 @@ module.exports = {
                     "0%, 100%": { transform: "rotate(0deg)" },
                     "50%": { transform: "rotate(40deg)" },
                 },
+                "spin-slow": {
+                    "0%": { transform: "rotate(0deg)" },
+                    // "50%": { transform: "rotate(180deg)" },
+                    "100%": { transform: "rotate(360deg)" },
+                },
             },
             animation: {
                 morph: "morph 8s ease-in-out infinite",
                 wiggle: "wiggle 2s ease-in-out infinite",
+                "spin-slow": "spin 10s linear infinite",
             },
         },
     },

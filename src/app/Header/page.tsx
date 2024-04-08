@@ -1,6 +1,6 @@
 "use client"
 
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"
+import { faBars, faSun, faXmark } from "@fortawesome/free-solid-svg-icons"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useState } from "react"
@@ -14,10 +14,16 @@ export default function Header() {
     return (
         <>
             <nav className="fixed z-10 w-full flex justify-between align-center py-[28px] pl-[40px] pr-[50px] bg-white dark:bg-slate-900 shadow-[0_0_10px_rgba(0,0,0,0.09)]">
-                <h3
-                    className="font-bold text-3xl hover:cursor-pointer dark:text-white"
+                <span
                     onClick={toggleDarkMode}
+                    className="absolute right-10 ml-8 border-2 border-slate-300 dark:border-white pl-1 pr-1 p-1"
                 >
+                    <FontAwesomeIcon
+                        icon={faSun}
+                        className="text-4xl text-yellow-500 hover:text-black dark:hover:text-white animate-spin-slow"
+                    />
+                </span>
+                <h3 className="font-bold text-3xl hover:cursor-pointer dark:text-white">
                     Tokunaga-X
                 </h3>
 
@@ -27,7 +33,7 @@ export default function Header() {
                     onClick={() => setMobileMenuShow(!mobileMenuShow)}
                 />
 
-                <ul className="sm:flex gap-8 hidden">
+                <ul className="sm:flex gap-8 hidden pr-12">
                     <li className="nav-li">
                         <a href="#home">Home</a>
                     </li>
