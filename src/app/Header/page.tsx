@@ -7,10 +7,17 @@ import { useState } from "react"
 
 export default function Header() {
     const [mobileMenuShow, setMobileMenuShow] = useState(false)
+
+    const toggleDarkMode = () => {
+        document.documentElement.classList.toggle("dark")
+    }
     return (
         <>
-            <nav className="fixed z-10 w-full flex justify-between align-center py-[28px] pl-[40px] pr-[50px] bg-white shadow-[0_0_10px_rgba(0,0,0,0.09)]">
-                <h3 className="font-bold text-3xl hover:cursor-pointer">
+            <nav className="fixed z-10 w-full flex justify-between align-center py-[28px] pl-[40px] pr-[50px] bg-white dark:bg-slate-900 shadow-[0_0_10px_rgba(0,0,0,0.09)]">
+                <h3
+                    className="font-bold text-3xl hover:cursor-pointer dark:text-white"
+                    onClick={toggleDarkMode}
+                >
                     Tokunaga-X
                 </h3>
 

@@ -14,13 +14,13 @@ import TypescriptIcon from "../../../public/typescript.png"
 export default function Home() {
     return (
         <div
-            className="min-h-screen flex flex-col items-center bg-grey-bg"
+            className="min-h-screen flex flex-col items-center bg-grey-bg dark:bg-slate-950"
             id="home"
         >
             <div className="relative flex flex-col lg:flex-row justify-center items-center my-0 md:mt-10 xl:mt-40 mx-auto px-16 lg:h-[65rem] max-w-[107rem] py-[11rem] lg:py-0 gap-12 lg:gap-0">
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-[10rem]">
                     <div className="max-w-[50rem]">
-                        <h1 className="text-center lg:text-left text-[#2d2e32] font-bold text-6xl sm:text-[5.5rem] my-8 leading-tight">
+                        <h1 className="text-center lg:text-left text-[#2d2e32] dark:text-white font-bold text-6xl sm:text-[5.5rem] my-8 leading-tight">
                             Full-stack Web Developer
                             <Image
                                 src={HelloImg}
@@ -28,13 +28,13 @@ export default function Home() {
                                 className="w-16 sm:w-32 inline-block animate-wiggle"
                             ></Image>
                         </h1>
-                        <p className="text-center lg:text-left font-special text-[1.8rem] text-[#767676] font-medium">
+                        <p className="text-center lg:text-left font-special text-[1.8rem] text-[#767676] dark:text-white font-medium">
                             Hi, I&apos;m Xu Yuchao. A passionate Full-stack Web
                             Developer based in Hangzhou, China. 📍
                         </p>
                         <div className="flex gap-[1.3rem] my-10 justify-center lg:justify-start">
                             <a
-                                className="hover:scale-110 hover:text-font-blue transition-all duration-500"
+                                className="hover:scale-110 hover:text-font-blue transition-all duration-500 dark:text-white"
                                 href="https://www.linkedin.com/in/yuchao-xu24253/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -45,7 +45,7 @@ export default function Home() {
                                 />
                             </a>
                             <a
-                                className="hover:scale-110 hover:text-font-blue transition-all duration-500"
+                                className="hover:scale-110 hover:text-font-blue transition-all duration-500 dark:text-white"
                                 href="https://github.com/Tokunaga-X"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -64,7 +64,7 @@ export default function Home() {
                     ></Image>
                 </div>
                 <div className="static lg:absolute bottom-0 left-[4rem] flex flex-col lg:flex-row items-center">
-                    <p className="font-special text-[#2d2e32] text-[1.7rem] font-[700] border-b-2 lg:border-b-0 lg:border-r-2 border-solid border-black mb-12 pb-4 lg:pb-0 lg:mb-0 lg:pr-8 lg:mr-28">
+                    <p className="font-special text-[#2d2e32] dark:text-white text-[1.7rem] font-[700] border-b-2 lg:border-b-0 lg:border-r-2 border-solid border-black dark:border-white mb-12 pb-4 lg:pb-0 lg:mb-0 lg:pr-8 lg:mr-28">
                         Tech Stack
                     </p>
                     <ul className="flex flex-wrap gap-12 list-none justify-center lg:justify-start">

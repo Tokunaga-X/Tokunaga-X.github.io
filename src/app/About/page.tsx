@@ -16,7 +16,7 @@ export default function About() {
                         A dedicated Full-stack Developer based in Hangzhou,
                         China 📍
                     </h3>
-                    <p className="font-special text-[#767676] text-[1.7rem] font-[500] mb-8">
+                    <p className="font-special text-[#767676] dark:text-white text-[1.7rem] font-[500] mb-8">
                         As a skilled web developer, I specialize in crafting
                         dynamic and engaging interfaces using clean, optimized
                         code and the latest development tools and techniques. I
