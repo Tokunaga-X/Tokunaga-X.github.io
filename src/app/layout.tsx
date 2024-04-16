@@ -1,6 +1,7 @@
 import "./globals.css"
 import "@fortawesome/fontawesome-svg-core/styles.css"
 
+import { DarkModeProvider } from "./store/DarkModeContext"
 import { config } from "@fortawesome/fontawesome-svg-core"
 
 config.autoAddCss = false
@@ -17,7 +18,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <DarkModeProvider>
+                <body>{children}</body>
+            </DarkModeProvider>
         </html>
     )
 }

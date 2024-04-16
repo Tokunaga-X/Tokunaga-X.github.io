@@ -1,16 +1,14 @@
 "use client"
 
 import { faBars, faSun, faXmark } from "@fortawesome/free-solid-svg-icons"
+import { useContext, useState } from "react"
 
+import { DarkModeContxt } from "../store/DarkModeContext"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { useState } from "react"
 
 export default function Header() {
     const [mobileMenuShow, setMobileMenuShow] = useState(false)
-
-    const toggleDarkMode = () => {
-        document.documentElement.classList.toggle("dark")
-    }
+    const { toggleDarkMode } = useContext(DarkModeContxt)
     return (
         <>
             <nav className="fixed z-10 w-full flex justify-between align-center py-[28px] pl-[40px] pr-[50px] bg-white dark:bg-slate-900 shadow-[0_0_10px_rgba(0,0,0,0.09)]">
@@ -20,10 +18,10 @@ export default function Header() {
                 >
                     <FontAwesomeIcon
                         icon={faSun}
-                        className="text-4xl text-yellow-500 hover:text-black dark:hover:text-white animate-spin-slow"
+                        className="text-4xl text-yellow-500 hover:text-black dark:hover:text-white cursor-pointer animate-spin-slow"
                     />
                 </span>
-                <h3 className="font-bold text-3xl hover:cursor-pointer dark:text-white">
+                <h3 className="font-bold text-4xl hover:cursor-pointer dark:text-white">
                     Tokunaga-X
                 </h3>
 

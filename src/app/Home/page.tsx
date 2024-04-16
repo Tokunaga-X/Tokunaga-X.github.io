@@ -1,6 +1,10 @@
+"use client"
+
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { useContext, useEffect } from "react"
 
 import Css3Icon from "../../../public/css-3.png"
+import { DarkModeContxt } from "../store/DarkModeContext"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import HTML5Icon from "../../../public/html-5.png"
 import HelloImg from "@/../public/hello.png"
@@ -9,13 +13,18 @@ import JavascriptIcon from "../../../public/js.png"
 import MyselfImg from "../../../public/myself.png"
 import NodeJsIcon from "../../../public/node-js.png"
 import ReactIcon from "../../../public/react.png"
+import SimpleBgImg from "../../../public/home-bg.jpg"
 import TypescriptIcon from "../../../public/typescript.png"
 
 export default function Home() {
+    const { darkMode } = useContext(DarkModeContxt)
     return (
         <div
-            className="min-h-screen flex flex-col items-center bg-grey-bg dark:bg-slate-950"
+            className="min-h-screen flex flex-col items-center dark:!bg-slate-950 bg-cover bg-center"
             id="home"
+            style={{
+                backgroundImage: darkMode ? `url(${SimpleBgImg.src})` : "none",
+            }}
         >
             <div className="relative flex flex-col lg:flex-row justify-center items-center my-0 md:mt-10 xl:mt-40 mx-auto px-16 lg:h-[65rem] max-w-[107rem] py-[11rem] lg:py-0 gap-12 lg:gap-0">
                 <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-[10rem]">
