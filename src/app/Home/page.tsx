@@ -11,9 +11,12 @@ import HelloImg from "@/../public/hello.png"
 import Image from "next/image"
 import JavascriptIcon from "../../../public/js.png"
 import MyselfImg from "../../../public/myself.png"
-import NodeJsIcon from "../../../public/node-js.png"
+import NextJsIcon from "../../../public/nextjs.svg"
+import NodeJsIcon from "../../../public/nodejs.svg"
 import ReactIcon from "../../../public/react.png"
 import SimpleBgImg from "../../../public/home-bg.jpg"
+import SolidityIcon from "../../../public/solidity.svg"
+import TailWindCssIcon from "../../../public/tailwind-css.svg"
 import TypescriptIcon from "../../../public/typescript.png"
 
 export default function Home() {
@@ -77,48 +80,87 @@ export default function Home() {
                         Tech Stack
                     </p>
                     <ul className="flex flex-wrap gap-12 list-none justify-center lg:justify-start">
-                        <li className="stack-li">
+                        <li className="stack-li group">
+                            <Image
+                                src={ReactIcon}
+                                alt="React"
+                                className="w-[3.4rem]"
+                            ></Image>
+                            <span className="absolute p-10 hidden group-hover:inline-block top-[6rem] text-2xl transition-all dark:text-white">
+                                React
+                            </span>
+                        </li>
+                        <li className="stack-li group">
+                            <Image
+                                src={NextJsIcon}
+                                alt="nextjs"
+                                className="w-[3.4rem]"
+                            ></Image>
+                            <span className="absolute p-10 hidden group-hover:inline-block top-[6rem] text-2xl transition-all dark:text-white">
+                                NextJs
+                            </span>
+                        </li>
+                        <li className="stack-li group">
                             <Image
                                 src={TypescriptIcon}
                                 alt="typscript"
                                 className="w-[3.4rem]"
                             ></Image>
+                            <span className="absolute p-10 hidden group-hover:inline-block top-[6rem] text-2xl transition-all dark:text-white">
+                                Typscript
+                            </span>
                         </li>
-                        <li className="stack-li">
+                        <li className="stack-li group">
+                            <Image
+                                src={TailWindCssIcon}
+                                alt="tailwind-css"
+                                className="w-[3.4rem]"
+                            ></Image>
+                            <span className="absolute p-10 hidden group-hover:inline-block top-[6rem] text-2xl transition-all dark:text-white">
+                                TailwindCss
+                            </span>
+                        </li>
+                        <li className="stack-li group">
+                            <Image
+                                src={NodeJsIcon}
+                                alt="NodeJs"
+                                className="w-[3.4rem]"
+                            ></Image>
+                            <span className="absolute p-10 hidden group-hover:inline-block top-[6rem] text-2xl transition-all dark:text-white">
+                                NodeJs
+                            </span>
+                        </li>
+                        <li className="stack-li group">
+                            <Image
+                                src={SolidityIcon}
+                                alt="Solidity"
+                                className="w-[3.4rem]"
+                            ></Image>
+                            <span className="absolute p-10 hidden group-hover:inline-block top-[6rem] text-2xl transition-all dark:text-white">
+                                Solidity
+                            </span>
+                        </li>
+                        {/* <li className="stack-li group">
                             <Image
                                 src={JavascriptIcon}
                                 alt="typscript"
                                 className="w-[3.4rem]"
                             ></Image>
                         </li>
-                        <li className="stack-li">
-                            <Image
-                                src={NodeJsIcon}
-                                alt="typscript"
-                                className="w-[3.4rem]"
-                            ></Image>
-                        </li>
-                        <li className="stack-li">
+                        <li className="stack-li group">
                             <Image
                                 src={HTML5Icon}
                                 alt="typscript"
                                 className="w-[3.4rem]"
                             ></Image>
                         </li>
-                        <li className="stack-li">
+                        <li className="stack-li group">
                             <Image
                                 src={Css3Icon}
                                 alt="typscript"
                                 className="w-[3.4rem]"
                             ></Image>
-                        </li>
-                        <li className="stack-li">
-                            <Image
-                                src={ReactIcon}
-                                alt="typscript"
-                                className="w-[3.4rem]"
-                            ></Image>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
